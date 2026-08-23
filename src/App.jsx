@@ -1,11 +1,14 @@
-import ReactLearn from "./components/componentsPractice/ReactLearn/ReactLearn.jsx"
-
+import Propintro from "./components/propsPractice/Introduction/Propintro"
+import Goku from '../src/assets/images/Goku.jpg'
 
 function App() {
-
+  const alertBox = () => {
+    alert('You click the button')
+   }
   return (
     <>
-      <ReactLearn/>
+      <Propintro username={'Nikhil'} imgUrl={Goku} alertFunction={alertBox} />
+    
     </>
   )
 }
