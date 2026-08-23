@@ -1,10 +1,11 @@
-import Intro from "./components/Introduction/Intro"
+import ReactLearn from "./components/componentsPractice/ReactLearn/ReactLearn.jsx"
+
 
 function App() {
 
   return (
     <>
-        <Intro/>
+      <ReactLearn/>
     </>
   )
 }
