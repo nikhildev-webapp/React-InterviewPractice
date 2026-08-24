@@ -16,7 +16,7 @@ const TypingPreview = () => {
           Real-Time Typing Preview
         </h2>
         
-        {/* Input & Preview Section */}
+        {/* Input*/}
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-1.5">
             <label className="text-sm font-semibold text-zinc-600">
@@ -31,7 +31,7 @@ const TypingPreview = () => {
             />
           </div>
 
-          {/* Dynamic Preview Box */}
+          {/*Preview Box */}
           <div className="mt-2 rounded-lg bg-zinc-50 p-4 border border-dashed border-zinc-200 min-h-20 flex flex-col justify-between">
             <span className="text-xs font-bold uppercase tracking-wider text-zinc-400 block mb-1">
               Live Preview
