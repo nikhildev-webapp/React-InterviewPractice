@@ -1,6 +1,5 @@
 import Greeting from "./Tasks/Greeting_App/Greeting"
 
-
 function App() {
 
   return (
