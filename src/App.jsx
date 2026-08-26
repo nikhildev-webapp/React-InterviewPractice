@@ -1,13 +1,11 @@
-import AlertButton from "./components/EventHandling/AlertButton"
-import HandlButtonClick from "./components/EventHandling/HandluttonClick"
+import Greeting from "./Tasks/Greeting_App/Greeting"
 
 
 function App() {
 
   return (
     <>
-      <HandlButtonClick />
-      <AlertButton/>
+      <Greeting/>
     </>
   )
 }
