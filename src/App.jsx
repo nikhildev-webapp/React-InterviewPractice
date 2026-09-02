@@ -1,10 +1,10 @@
-import ThemeToggle from "./Hooks/UseContext/ThemeToggle"
+import ContactForm from "./Projects/ContactForm/ContactForm"
 
 function App() {
   
   return (
     <>
-      <ThemeToggle/>
+          <ContactForm/>
     </>
     
   )
