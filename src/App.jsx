@@ -1,12 +1,10 @@
-import Form from "./components/Form/Form"
-import HooksIntro from "./Hooks/Introduction_Hooks/HooksIntro"
-
+import Counter from "./Hooks/USESTATE/Counter"
 
 function App() {
 
   return (
     <>
-      <HooksIntro/>
+     <Counter/>
     </>
   )
 }
