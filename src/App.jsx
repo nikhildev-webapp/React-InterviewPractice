@@ -1,11 +1,12 @@
-import Counter from "./Hooks/USESTATE/Counter"
+import ThemeToggle from "./Hooks/UseContext/ThemeToggle"
 
 function App() {
-
+  
   return (
     <>
-     <Counter/>
+      <ThemeToggle/>
     </>
+    
   )
 }
 
