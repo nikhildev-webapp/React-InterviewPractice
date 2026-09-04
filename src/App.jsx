@@ -1,11 +1,10 @@
-import ContactForm from "./Projects/ContactForm/ContactForm"
-import Counter from "./Projects/Counter/Counter"
+import UserProfiles from "./Projects/UserProfile/UserProfiles"
 
 function App() {
   
   return (
     <>
-          <Counter/>
+        <UserProfiles/>
     </>
     
   )
